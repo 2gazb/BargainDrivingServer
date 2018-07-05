@@ -1,0 +1,9 @@
+FROM swift:4.1
+RUN apt-get -qq update && \
+    apt-get -q -y install libmysqlclient-dev && \
+    rm -r /var/lib/apt/lists/*
+WORKDIR /app
+COPY . .
+RUN swift package resolve
+RUN swift package clean
+CMD ["swift", "test"]

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0930"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "LylinkServer::Run"
+               BuildableName = "Run"
+               BlueprintName = "Run"
+               ReferencedContainer = "container:LylinkServer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "LylinkServer::Run"
+            BuildableName = "Run"
+            BlueprintName = "Run"
+            ReferencedContainer = "container:LylinkServer.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "LylinkServer::Run"
+            BuildableName = "Run"
+            BlueprintName = "Run"
+            ReferencedContainer = "container:LylinkServer.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "superadmin admin3 Admin Admin password"
+            isEnabled = "NO">
+         </CommandLineArgument>
+      </CommandLineArguments>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "JWT_SECRET"
+            value = "prxLUsPtRmfJwForTswwMSCyo8NWy6jT3c061iSAMsmWcm_tQ54mK5aOjLX6WA0KxC_fYE8wLMxRbnrlm9_TXosysvLtRE5PEKMzf9kxds8qbn0lPvUK8AtvM1gpjr9_kycBc_ZhKt7oJ4XYK_NjWaVeRpXDt_auZUW_vE6GT3LM2YwGfhKl-O9ht_r70MZEBjN-ztoylOFJ9KAzeuUVSbBeur4nu12MDgq3IIeNFV3xuqRgTnw0_4lQaOTA5wb5dR1omBW1G_gOTxZsoOWcpsXCSX9aFm79VviepLuBxnuq4km8TuQ85RwwMkyuEVCnZAVfWa2ERCOmt7LJa-SzoQ"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "USER_JWT_D"
+            value = "A4Ikx5oNzRRz_1MmZCMRxIbem2mJ0wE7bAhce5MLC4aIXuISCQEz5mjlmPpfSSkFF_m15o3kAp1N_VgiqrP7-5pMN826xlwrd7snY0JLsydKykZh2UBIuaJT9a2eOj23Tn5cnncJtmA4XFSJpusZJRLAuBWAp8dOBh2AmlLAqr1D5XHsbKctiTpoIgo6D99JgfDWYukAHWr_eBeptzHq12nTaFipyf_qOZVZCc7j9mC8fOY5fv_Q8570TMCZ4apmT9fiKuR62Bm7XbbmVr3jmB7xFsacO6XbbuOm1c_SpITE1gljgHT8-VOSEmRx8481yicQUN_5NINMfvrpWqCzkQ"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "LylinkServer::Run"
+            BuildableName = "Run"
+            BlueprintName = "Run"
+            ReferencedContainer = "container:LylinkServer.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

@@ -1,0 +1,4 @@
+module CNIOHTTPParser {
+    umbrella "/Users/nakamuramasayuki/lylink_server/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOHTTPParser/include"
+    export *
+}
